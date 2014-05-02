@@ -16,9 +16,6 @@
 
 BOARD_VENDOR := xiaomi
 
-# CM Hardware
-BOARD_HARDWARE_CLASS += device/xiaomi/common/cmhw
-
 # MSM Init
 TARGET_INIT_VENDOR_LIB := libinit_msm_xiaomi
 
