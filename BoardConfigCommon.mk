@@ -16,9 +16,6 @@
 
 BOARD_VENDOR := xiaomi
 
-# MSM Init
-TARGET_INIT_VENDOR_LIB := libinit_msm_xiaomi
-
 # QCOM Power
 TARGET_POWERHAL_VARIANT := qcom
 
