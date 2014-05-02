@@ -59,7 +59,7 @@ public class Startup extends BroadcastReceiver {
             }
 
             // Disable O-Click settings if needed
-            if (!"OPPO".equals(Build.BRAND)) {
+            if (!"Xiaomi".equals(Build.BRAND)) {
                 disableComponent(context, BluetoothInputSettings.class.getName());
                 disableComponent(context, OclickService.class.getName());
                 disableComponent(context, BluetoothReceiver.class.getName());
